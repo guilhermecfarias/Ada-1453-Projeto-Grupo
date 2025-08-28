@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', Arial, sans-serif;      
+    font-weight: normal;
+}
+
+main{
+    padding: 50px;
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url('assets/background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+header button{
+    box-shadow: 0 4px 5px #000;
+}
+
+section{
+    width: 50%;
+}
+
+
+.content__texto__principal {
+    color: #D44D51;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 25px; 
+}
+
+.titulo{
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: justify;
+    color: #091133;
+}
+
+.content__botoes{
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 30px;
+}
+
+header, footer{
+    width: 100%;
+    padding: 15px 50px; 
+    display: flex;
+    color: white;
+    gap: 30px;
+    font-size: small;
+}
+
+header{
+    top: 0;
+    position: fixed;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    flex-direction: column;
+    background-color: #F78282;
+}
+
+.navegador{
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #CD313E;
+}
+
+
+ul {
+    color: #CD313E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+        
+}
+
+.botao__padrao, .saiba__mais { 
+    width: 189px;
+    height: 30px;
+    background-color: #CD313E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer a{
+    color: #fff;
+}
+
+.footer__header, .footer__footer, .header__section{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.footer__header{
+    padding: 30px 0;
+    border-bottom: solid #FFF;
+}
+
+.footer__footer{
+    padding: 5px 0;
+}
+
+.saiba__mais{
+    background-color: transparent;
+    color: black;
+    border:black solid 2px;
+    cursor: pointer;  
+}
